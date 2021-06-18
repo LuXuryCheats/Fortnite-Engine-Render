@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\FN_CoreUObject_functions.cpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Engine_functions.cpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_FortniteGame_functions.cpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Basic.cpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner.cpp">
+      <Filter>scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hks">
+      <UniqueIdentifier>{26266524-b235-4b99-8ea1-68346858e40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{de5db5a9-4c1f-41d8-b86d-620e75722755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\GameSDK">
+      <UniqueIdentifier>{a0075b86-0905-4860-ad45-8fe2c1d9e73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hks\hkpost">
+      <UniqueIdentifier>{f8d4d8f8-59a5-42ef-bb7a-c8e426177885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hks\hkfunctions">
+      <UniqueIdentifier>{36047983-6fc8-4409-a38f-8938c318bffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{9a457202-1302-403e-a31a-4c607d06d132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hkrender">
+      <UniqueIdentifier>{88c281df-1295-4b69-930e-9055a0e1b4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scanner">
+      <UniqueIdentifier>{9bae92ef-131c-4bb4-86b7-209d86a186a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{3994bb96-0f08-43ea-8816-4d49a1e4a297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_classes.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_parameters.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_structs.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_classes.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_parameters.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_structs.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_parameters.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_structs.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_classes.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Basic.hpp">
+      <Filter>sdk\GameSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="hkpost.h">
+      <Filter>hks\hkpost</Filter>
+    </ClInclude>
+    <ClInclude Include="hkfunctions.h">
+      <Filter>hks\hkfunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="hkrender.h">
+      <Filter>hkrender</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="spoof_call.h" />
+    <ClInclude Include="tinyformat.h" />
+    <ClInclude Include="Misc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="assembly.asm" />
+  </ItemGroup>
+</Project>
